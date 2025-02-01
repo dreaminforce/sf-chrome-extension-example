@@ -1,0 +1,28 @@
+{
+  "name": "Salesforce Apex Classes Finder",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Fetches and displays a list of Apex Classes using the current Salesforce session.",
+  "homepage_url": "https://github.com/example/salesforce_apex_classes_finder",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "48": "images/48.png",
+      "128": "images/128.png"
+    },
+    "default_title": "Fetch Apex Classes"
+  },
+  "permissions": [
+    "activeTab",
+    "cookies"
+  ],
+  "host_permissions": [
+    "https://*.force.com/*",
+    "https://*.salesforce.com/*"
+  ]
+}
