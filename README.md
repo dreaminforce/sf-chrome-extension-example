@@ -97,12 +97,6 @@ The extension connects to Salesforce by:
 ## Contributing
 Contributions are welcome! If you have ideas for improvements or encounter any issues, please:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/YourFeature).
-Commit your changes (git commit -m 'Add some feature').
-Push to your branch (git push origin feature/YourFeature).
-Open a pull request.
-
 
 ## License
 This project is licensed under the MIT License.
