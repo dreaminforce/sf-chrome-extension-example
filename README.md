@@ -57,6 +57,12 @@ A simple Chrome extension that connects with a Salesforce org to fetch and displ
 - The extension will display a list of Apex classes from your Salesforce Org.
 - If no classes are found, you'll see a message indicating so. In case of errors (e.g., missing session cookie), an error message will be displayed.
 
+## Screenshots
+  ![Screenshot 2025-02-04 205815](https://github.com/user-attachments/assets/f82515b0-f9a0-49a5-8f4b-ccd02e9ecb68)
+  ![Screenshot 2025-02-04 205939](https://github.com/user-attachments/assets/16abcc41-d928-43b3-8cdf-fc4452266adf)
+
+
+
 ## Code Overview
 ### manifest.json
 
